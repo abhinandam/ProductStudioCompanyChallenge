@@ -1,45 +1,35 @@
-<!DOCTYPE>
+<!DOCTYPE html>
 <html>
     <head>
         <title>User Login</title>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="/custom.css">
         <script src="jquery.js"></script>
         <script src="bootstrap.js"></script>
         <script src="localuser.js"></script>
     </head>
-    <style>
-        .main-content{
-            margin-top: 30px;
-        }
-        
-        .writediv{
-            height: 170px;
-            margin-top: 16px;
-            border: 1px solid #ccc;
-            padding: 12px 12px;
-            border-radius: 4px;
-        }
-
-    </style>
     <body>
-<!--        <form action="#" method="POST">-->
-            <div class="main-content">
-                
-                <div class="writediv">
-                    <label>Username:</label>
-                    <input type="text" id="username" name="username">
-                    <label>Password:</label>
-                    <input type="password" id="password" name="password">
-<!--                    <button class="btn btn-default postbtn" type="submit">POST</button>-->
-                    
-                    <button class="btn btn-default postbtn">Login</button>
-                    
-                    <a href="popup.html">Login</a>
-                            
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12">
+        <!--        <form action="#" method="POST">-->
+                    <div class="main-content">
+                        <div class="writediv">
+                            <label>Username:</label>
+                            <input type="text" id="username" name="username">
+                            <label>Password:</label>
+                            <input type="password" id="password" name="password">
+        <!--                    <button class="btn btn-default postbtn" type="submit">POST</button>-->
+                             <div class="login">
+                                 <button class="btn btn-default postbtn">Login</button>
+                                 <a href="popup.html">Login</a>   
+                            </div>    
+                        </div>
+                    </div>
+        <!--        </form>-->
                 </div>
             </div>
-<!--        </form>-->
-
+        </div>
     </body>
     <script src="checklogin.js"></script>
 <!--

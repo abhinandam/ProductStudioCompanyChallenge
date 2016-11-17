@@ -1,0 +1,21 @@
+    <style>
+       
+      .main {
+       	  background-color: blue;
+      }
+      .main-content{
+          background-color: blue;
+      }
+        
+      .writediv{
+        	margin: 15px 0px 15px 0px;
+          border: 1px solid #ccc;
+          padding: 10px;
+          border-radius: 4px;
+       }
+
+      .login {
+          margin-top: 10px;
+      }
+
+    </style>
