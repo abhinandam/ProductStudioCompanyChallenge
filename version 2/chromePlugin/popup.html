@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="jquery.js"></script>
+    <script src="bootstrap.js"></script>
+    <title>Facepocket</title>
+    <script src="checklogin.js"></script>
+</head>
+    <style>
+        .main{
+            width: 300px;
+            padding-bottom: 20px;
+        }
+    </style>
+<body>
+<div class="main">
+    <div class="container">
+        <ul class="nav nav-tabs">
+            <li class="active"><a data-toggle="tab" href="#sharemenu">Share</a></li>
+            <li><a data-toggle="tab" href="#readmenu" class="readbutton">Read</a></li>
+        </ul>
+        <button class="btn btn-default logout">Log Out</button>
+        
+        <div class="tab-content">
+            <div id="sharemenu" class="tab-pane fade in active">
+                <h4>SHARE</h4>
+                <div class="input-group">
+                    <input type="text" class="form-control keywords" placeholder="Search for...">
+                    <span class="input-group-btn">
+                        <button class="btn btn-default searchfriends" type="button" >
+                            <span class="glyphicon glyphicon-search"></span>
+                        </button>
+                    </span>
+                </div>
+                <br>
+                <div id="myname">
+                    Username:
+                </div>
+                <div id="message"></div>
+                <div>
+<!--
+                    <div class="row">
+                        <div class="col-xs-8">
+                            <label for="rui">rui</label>
+                        </div>
+                        <div class="col-xs-4">
+                            <input type="checkbox" id="rui" value="rui" name="friends">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-8">
+                            <label for="jack">Jack</label>
+                        </div>
+                        <div class="col-xs-4">
+                            <input type="checkbox" id="jack" value="jack" name="friends">
+                        </div>
+                    </div>
+-->
+                </div>
+                <br>
+                <p>HAHAHA</p>
+                <div class="friendsresult"></div>
+                <div>
+                    <button class="btn btn-primary sharebutton">share</button>
+                    <button class="btn btn-default">cancel</button>
+                </div>
+            </div>
+            <div id="readmenu" class="tab-pane fade">
+                <h4>Read</h4>
+                <div class="showresult" style="border: 1px solid pink">
+                
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+</body>
+<script src="sharefile.js"></script>
+<script src="searchfriends.js"></script>
+</html>
+
