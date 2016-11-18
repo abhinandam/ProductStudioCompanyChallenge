@@ -11,13 +11,22 @@
 
 <body>
 <div class="main">
-    <div class="container">
+    <div id="topbar" class="container">
         <ul class="nav nav-pills">
+
+<!--
             <li class="active"><a data-toggle="tab" href="#sharemenu">Share</a></li>
             <li><a data-toggle="tab" href="#readmenu" class="readbutton">Read<span class="badge urnums"></span></a></li>
+-->
+
+            <img class="navbar-brand" alt="Lynx" src="img.png">
+            <li class="active"><a data-toggle="tab" href="#sharemenu">SHARE</a></li>
+            <li><a data-toggle="tab" href="#readmenu" class="readbutton">READ<span class="badge urnums"></span></a></li>
+
             <li class="lilogout"><a class="logout">Logout</a></li>
         </ul>
-        
+    </div>
+    <div class="container">    
         <div class="tab-content readmain">
             <div id="sharemenu" class="tab-pane fade in active">
                 <div class="input-group">
@@ -28,7 +37,6 @@
                         </button>
                     </span>
                 </div>
-                <br>
 <!--                <div id="myname"></div>-->
                 <div id="message"></div>
 <!--
@@ -49,7 +57,6 @@
                         </div>
                     </div>
 -->
-                <br>
                 <div class="friendsresult"></div>
                 <nav class="navbar navbar-fixed-bottom">
                 <div>
