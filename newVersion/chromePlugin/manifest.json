@@ -9,10 +9,7 @@
     "default_icon": "img.png",
     "default_popup": "login.html"
   },
-    
-  "background":{
-    "scripts": ["background.js"]
-  },
+
   "permissions": [
      "activeTab",
      "https://ajax.googleapis.com/"
