@@ -1,0 +1,42 @@
+.writediv{
+    margin: 15px 0px 15px 0px;
+/*
+    height: 170px;
+    margin-top: 16px;
+*/
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+
+
+.main{
+    width: 300px;
+    padding-bottom: 20px;
+}
+
+.postbtn {
+    margin-top: 10px;
+}
+
+.userimage {
+    width: 100%;
+}
+
+.articleimage {
+    width:100%;
+}
+
+/*
+.rightstatus{
+    margin-left: -24px;
+}*/
+
+.rightstatus > span {
+    color: red;
+}
+
+.read {
+    background-color: grey;
+}

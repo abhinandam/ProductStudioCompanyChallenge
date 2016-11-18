@@ -6,27 +6,23 @@
     <script src="bootstrap.js"></script>
     <title>Facepocket</title>
     <script src="checklogin.js"></script>
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
 </head>
-    <style>
-        .main{
-            width: 300px;
-            padding-bottom: 20px;
-        }
-    </style>
+
 <body>
 <div class="main">
     <div class="container">
-        <ul class="nav nav-tabs">
+        <ul class="nav nav-pills">
             <li class="active"><a data-toggle="tab" href="#sharemenu">Share</a></li>
             <li><a data-toggle="tab" href="#readmenu" class="readbutton">Read</a></li>
+            <li><a class="logout">Logout</a></li>
         </ul>
-        <button class="btn btn-default logout">Log Out</button>
+<!--        <button class="btn btn-default logout">Log Out</button>-->
         
         <div class="tab-content">
             <div id="sharemenu" class="tab-pane fade in active">
-                <h4>SHARE</h4>
                 <div class="input-group">
-                    <input type="text" class="form-control keywords" placeholder="Search for...">
+                    <input type="text" class="form-control keywords" placeholder="Search contacts...">
                     <span class="input-group-btn">
                         <button class="btn btn-default searchfriends" type="button" >
                             <span class="glyphicon glyphicon-search"></span>
@@ -34,11 +30,8 @@
                     </span>
                 </div>
                 <br>
-                <div id="myname">
-                    Username:
-                </div>
+                <div id="myname"></div>
                 <div id="message"></div>
-                <div>
 <!--
                     <div class="row">
                         <div class="col-xs-8">
@@ -57,19 +50,18 @@
                         </div>
                     </div>
 -->
-                </div>
                 <br>
-                <p>HAHAHA</p>
                 <div class="friendsresult"></div>
+                <nav class="navbar navbar-fixed-bottom">
                 <div>
-                    <button class="btn btn-primary sharebutton">share</button>
-                    <button class="btn btn-default">cancel</button>
+                    <button class="btn btn-primary sharebutton form-control">Send</button>
                 </div>
+                </nav>
+
             </div>
+            
             <div id="readmenu" class="tab-pane fade">
-                <h4>Read</h4>
-                <div class="showresult" style="border: 1px solid pink">
-                
+                <div class="showresult">
                 </div>
             </div>
 

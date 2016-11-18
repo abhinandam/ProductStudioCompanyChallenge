@@ -52,7 +52,7 @@ $(document).ready(function(){
         $.each(data.members, function(index) {
             member = data.members[index];
             
-            $(".friendsresult").append("<div><label for='"+member+"'>"+member+"</label><input type='checkbox' id='m"+member+"' value='"+member+"' name='friends'></div><hr>");
+            $(".friendsresult").append("<div class='row'><div class='col-xs-3'><img src='image/benPic.png'class='userimage'></div><div class='col-xs-7'><label for='"+member+"'>"+member+"</label></div><div class='col-xs-2'><input type='checkbox' id='m"+member+"' value='"+member+"' name='friends'></div></div><hr>");
             
             console.log(member);
         });
