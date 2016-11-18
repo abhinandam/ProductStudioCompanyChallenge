@@ -41,8 +41,10 @@ $(document).ready(function(){
         $.each(data.members, function(index) {
             member = data.members[index][0];
             userphoto = data.members[index][1];
+            firstname = data.members[index][2];
+            lastname = data.members[index][3];
             
-            $(".friendsresult").append("<div class='row'><div class='col-xs-3'><img src='"+userphoto+"' class='userimage'></div><div class='col-xs-7'><label for='"+member+"'>"+member+"</label></div><div class='col-xs-2'><input type='checkbox' id='m"+member+"' value='"+member+"' name='friends'></div></div><hr>");
+            $(".friendsresult").append("<div class='row'><div class='col-xs-3'><img src='"+userphoto+"' class='userimage'></div><div class='col-xs-7'><label for='"+member+"'>"+firstname+" "+lastname+"</label></div><div class='col-xs-2'><input type='checkbox' id='m"+member+"' value='"+member+"' name='friends'></div></div><hr>");
             
         });
             
