@@ -31,6 +31,7 @@
 .btn-primary:focus {
     margin-top: 10px;
     background-color: #1995AD;
+    background-image: url("az-subtle.png");
     border-color: #8064A2;
 }
 
@@ -94,7 +95,8 @@ hr {
     margin-top: 3px;
     margin-bottom: 3px;
     border: 0;
-    border-top: .5px solid color: rgb(15,89,108);
+    border-top: .5px solid;
+    border-color: rgba(15,89,108,.6);
 }
 
 .navbar-fixed-bottom {
@@ -117,8 +119,15 @@ hr {
 
 .input-group {
     margin-top: 10px;
+    margin-bottom: 10px;
 }
 
+.alert, .alert-info {
+    margin-bottom: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
 
 /*
 .rightstatus{
@@ -151,6 +160,11 @@ hr {
     opacity: 0.3;
 }
 
+.userimage {
+    height: 50px;
+    width: 50px;
+}
+
 .rightstatus {
     padding-left: 0px;
 }
@@ -167,7 +181,7 @@ p {
 
 input[type=checkbox], input[type=radio] {
     font-size: 50px;
-    margin-top: 25px;
+    margin-top: 18px;
 }
 
 .friendsresult .row:hover {
@@ -184,7 +198,7 @@ input[type=checkbox], input[type=radio] {
 }
 
 .col-xs-7 label {
-    padding-top: 1.5em;
+    padding-top: 1.1em;
 }
 
 

@@ -36,7 +36,7 @@ $(document).ready(function(){
                     },
                     function(status){
                         console.log(status);
-                        $("#message").html("successful!");
+                        $("#message").html("<div class='alert alert-info' role='alert'>Sent!</div>");
                     });
                     
                     }
