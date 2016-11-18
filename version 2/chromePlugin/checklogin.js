@@ -17,18 +17,7 @@ $(document).ready(function(){
                 });
                     
         });
-        
-//        if(username == "jack" && password=="jack"){
-//            localStorage.setItem("username", username); 
-//            window.location.href="popup.html";
-//        }
-//        
-//        if(username == "rui" && password=="rui"){
-//            localStorage.setItem("username", username); 
-//            window.location.href="popup.html";
-//        }
-    });
-//});
+});
 
 
 $(document).ready(function(){
@@ -50,9 +39,10 @@ $(document).ready(function(){
 $(document).ready(function(){
     $.getJSON('http://ec2-35-163-235-152.us-west-2.compute.amazonaws.com/allmember', function(data) {
         $.each(data.members, function(index) {
-            member = data.members[index];
+            member = data.members[index][0];
+            userphoto = data.members[index][1];
             
-            $(".friendsresult").append("<div class='row'><div class='col-xs-3'><img src='image/benPic.png'class='userimage'></div><div class='col-xs-7'><label for='"+member+"'>"+member+"</label></div><div class='col-xs-2'><input type='checkbox' id='m"+member+"' value='"+member+"' name='friends'></div></div><hr>");
+            $(".friendsresult").append("<div class='row'><div class='col-xs-3'><img src='"+userphoto+"' class='userimage'></div><div class='col-xs-7'><label for='"+member+"'>"+member+"</label></div><div class='col-xs-2'><input type='checkbox' id='m"+member+"' value='"+member+"' name='friends'></div></div><hr>");
             
             console.log(member);
         });

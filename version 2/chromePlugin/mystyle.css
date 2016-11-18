@@ -1,15 +1,9 @@
 .writediv{
     margin: 15px 0px 15px 0px;
-/*
-    height: 170px;
-    margin-top: 16px;
-*/
     border: 1px solid #ccc;
     padding: 10px;
     border-radius: 4px;
 }
-
-
 
 .main{
     width: 300px;
@@ -39,4 +33,8 @@
 
 .read {
     background-color: grey;
+}
+
+.lilogout {
+    float: right !important;
 }
