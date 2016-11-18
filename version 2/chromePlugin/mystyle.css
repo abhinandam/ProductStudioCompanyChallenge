@@ -7,7 +7,7 @@
 
 
 .main{
-    width: 300px;
+    width: 360px;
     padding-bottom: 20px;
     background-color: #F1F1F2;
 }
@@ -83,7 +83,8 @@ hr {
 
 
 .articleimage {
-    width: 32px;
+    width: 48px;
+    padding-left: 0px;
 }
 
 
