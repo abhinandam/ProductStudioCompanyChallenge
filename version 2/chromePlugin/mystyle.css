@@ -57,9 +57,10 @@
 
 .navbar-brand {
     float: left;
-    height: 40px;
+    height: 35px;
     padding: 5px 5px;
     margin-right: 10px;
+    margin-top: 1px;
 /*    font-size: 18px;
     line-height: 20px;*/
 }
@@ -67,7 +68,7 @@
 .nav-pills li>a {
 /*    margin-top: 5px;
     margin-bottom: 5px;*/
-    font-size: 1em;
+    font-size: .9em;
     font-weight: 200;
     color: rgb(15,89,108);
 }
@@ -110,7 +111,7 @@ hr {
     margin-bottom: 0px;
     margin-right: 10px;
     margin-left: 10px;
-    background-color: #F1F1F2;
+    background-color: rgba(241, 241, 242, 0.45);
 }
 
 .userimage {
@@ -187,11 +188,12 @@ hr {
 
 .rightstatus {
     padding-left: 0px;
+    margin-left: -5px;
 }
 
 .col-xs-9 label {
     font-weight: 200;
-    font-size: .9em;
+    font-size: .8em;
     margin-bottom: 0px;
 }
 
