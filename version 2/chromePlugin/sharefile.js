@@ -58,13 +58,13 @@ $(document).ready(function(){
                 
                 if (data.urls[index][6] == 1){
 
-                    $('.showresult').append("<div id='"+data.urls[index][0]+"'>"+data.urls[index][0]+"</div><div class='row read'><div class='col-xs-2'><img class='articleimage' src='"+data.urls[index][4]+"'></div><div class='col-xs-9'><p><a id='a"+data.urls[index][0]+"' target='_blank' href='"+data.urls[index][3]+"'>"+data.urls[index][5]+"</a></p><label>From: "+data.urls[index][1]+"</label></div><div class='col-xs-1 rightstatus'></div></div><hr>");
+                    $('.showresult').append("<div class='row read'><div class='col-xs-2'><img class='articleimage' src='"+data.urls[index][4]+"'></div><div class='col-xs-9'><p><a id='a"+data.urls[index][0]+"' target='_blank' href='"+data.urls[index][3]+"'>"+data.urls[index][5]+"</a></p><label>From: "+data.urls[index][1]+"</label></div><div class='col-xs-1 rightstatus'></div></div><hr>");
 
                 }
                 
                 if (data.urls[index][6] == 0){
 
-                    $('.showresult').append("<div id='"+data.urls[index][0]+"'>"+data.urls[index][0]+"unread</div><div class='row'><div class='col-xs-2'><img class='articleimage' src='"+data.urls[index][4]+"'></div><div class='col-xs-9'><p><a id='a"+data.urls[index][0]+"' target='_blank' href='"+data.urls[index][3]+"'>"+data.urls[index][5]+"</a></p><label>From: "+data.urls[index][1]+"</label></div><div class='col-xs-1 rightstatus'><span class='glyphicon glyphicon-certificate'></span></div></div><hr>");
+                    $('.showresult').append("<div class='row'><div class='col-xs-2'><img class='articleimage' src='"+data.urls[index][4]+"'></div><div class='col-xs-9'><p><a id='a"+data.urls[index][0]+"' target='_blank' href='"+data.urls[index][3]+"'>"+data.urls[index][5]+"</a></p><label>From: "+data.urls[index][1]+"</label></div><div class='col-xs-1 rightstatus'><span class='glyphicon glyphicon-certificate'></span></div></div><hr>");
 
                 }
                 

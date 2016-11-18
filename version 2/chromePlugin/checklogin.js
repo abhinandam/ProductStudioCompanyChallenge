@@ -20,11 +20,11 @@ $(document).ready(function(){
 });
 
 
-$(document).ready(function(){
-    var user = localStorage.getItem("username");
-    console.log(user);
-    $('#myname').html(user);
-});
+//$(document).ready(function(){
+//    var user = localStorage.getItem("username");
+//    console.log(user);
+//    $('#myname').html(user);
+//});
 
 
 $(document).ready(function(){
