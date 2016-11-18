@@ -215,3 +215,12 @@ glacier blue: #1995AD
     margin-top: 15px;
 }
 
+.bottomspace{
+    height: 36px;
+}
+
+.friendsresult{
+    height: 400px;
+    overflow: scroll;
+}
+
