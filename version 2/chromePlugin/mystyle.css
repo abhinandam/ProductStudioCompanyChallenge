@@ -57,15 +57,16 @@
 
 .navbar-brand {
     float: left;
-    height: 50px;
-    padding: 10px 10px;
+    height: 40px;
+    padding: 5px 5px;
+    margin-right: 10px;
 /*    font-size: 18px;
     line-height: 20px;*/
 }
 
 .nav-pills li>a {
-    margin-top: 5px;
-    margin-bottom: 5px;
+/*    margin-top: 5px;
+    margin-bottom: 5px;*/
     font-size: 1em;
     font-weight: 200;
     color: rgb(15,89,108);
@@ -79,7 +80,7 @@
     font-size: .8em;
     font-weight: 100;
     margin-right: -10px;
-    margin-top: 0px;
+    margin-top: 2px;
 }
 
 /*
@@ -100,7 +101,7 @@ hr {
     margin-bottom: 3px;
     border: 0;
     border-top: .5px solid;
-    border-color: rgba(15,89,108,.6);
+    border-color: rgba(15,89,108,.4);
 }
 
 .navbar-fixed-bottom {
@@ -159,6 +160,11 @@ hr {
     color: #BCBABE;
 }
 
+.showresult .row {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
 .lilogout {
     float: right !important;
     cursor: pointer; 
@@ -167,7 +173,7 @@ hr {
 .articleimage {
     width: 48px;
     padding-left: 0px;
-    margin-top: 5px;
+    margin-top: 0px;
 }
 
 .read .articleimage {
@@ -175,8 +181,8 @@ hr {
 }
 
 .userimage {
-    height: 50px;
-    width: 50px;
+    height: 40px;
+    width: 40px;
 }
 
 .rightstatus {
@@ -191,15 +197,17 @@ hr {
 
 .col-xs-9 p {
     margin-bottom: 0px;
+    font-size: .9em;
 }
 
 p {
     margin-bottom: 5px;
+    font-size: .9em;
 }
 
 input[type=checkbox], input[type=radio] {
     font-size: 50px;
-    margin-top: 18px;
+    margin-top: 13px;
 }
 
 .friendsresult .row:hover {
@@ -221,9 +229,14 @@ input[type=checkbox], input[type=radio] {
 }
 
 .col-xs-7 label {
-    padding-top: 1.1em;
+    padding-top: .8em;
+
 }
 
+.col-xs-7 {
+    padding-left: 0px;
+    margin-left: -10px;
+}
 
 /*
 overcast: #F1F1F2
@@ -234,7 +247,7 @@ glacier blue: #1995AD
 */
 
 .readmain{
-    margin-top: 15px;
+    margin-top: 10px;
 }
 
 .bottomspace{
