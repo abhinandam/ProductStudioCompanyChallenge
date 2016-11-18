@@ -14,7 +14,7 @@ $(document).ready(function(){
                 
                 member = data.getusername[index];
             
-                $(".friendsresult").append("<div><label for='"+member+"'>"+member+"</label><input type='checkbox' id='m"+member+"' value='"+member+"' name='friends'></div><hr>");
+                $(".friendsresult").append("<div class='row'><div class='col-xs-3'><img src='image/benPic.png'class='userimage'></div><div class='col-xs-7'><label for='"+member+"'>"+member+"</label></div><div class='col-xs-2'><input type='checkbox' id='m"+member+"' value='"+member+"' name='friends'></div></div><hr>");
 
                 console.log(data.getusername[index]);
                 
@@ -43,9 +43,10 @@ $(document).ready(function(){
             console.log(keywords);
             $.each(data.getusername, function(index) {
                 
-                console.log(index);
+                member = data.getusername[index];
                 
-                $(".friendsresult").append("<div><div id='"+data.getusername[index]+"'>"+data.getusername[index]+"</div><hr>");
+//                $(".friendsresult").append("<div><div id='"+data.getusername[index]+"'>"+data.getusername[index]+"</div><hr>");                           
+                $(".friendsresult").append("<div class='row'><div class='col-xs-3'><img src='image/benPic.png'class='userimage'></div><div class='col-xs-7'><label for='"+member+"'>"+member+"</label></div><div class='col-xs-2'><input type='checkbox' id='m"+member+"' value='"+member+"' name='friends'></div></div><hr>");
 
                 console.log(data.getusername[index]);
                 
