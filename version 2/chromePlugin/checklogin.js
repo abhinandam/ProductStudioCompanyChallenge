@@ -44,10 +44,54 @@ $(document).ready(function(){
             
             $(".friendsresult").append("<div class='row'><div class='col-xs-3'><img src='"+userphoto+"' class='userimage'></div><div class='col-xs-7'><label for='"+member+"'>"+member+"</label></div><div class='col-xs-2'><input type='checkbox' id='m"+member+"' value='"+member+"' name='friends'></div></div><hr>");
             
-            console.log(member);
         });
             
     }); 
 });
+
+
+//$(document).ready(function(){
+//    count = 0;
+//    var currUser = localStorage.getItem("username");
+//    
+//    $.getJSON('http://ec2-35-163-235-152.us-west-2.compute.amazonaws.com/readmessage', { currUser: currUser }, function(data) {
+//        $.each(data.urls, function(index) {
+//            
+//            if(data.urls[index][6]== 0){
+//                count = count + 1;
+//                console.log(count);
+//            }
+//            
+//        });
+//        
+//        $(".urnums").html(count);
+//            
+//    }); 
+//});
+
+
+function myFunction() {
+    setInterval(checkForUpdates, 300);
+}
+
+myFunction();
+
+function checkForUpdates() {
+    count = 0;
+    var currUser = localStorage.getItem("username");
+    
+    $.getJSON('http://ec2-35-163-235-152.us-west-2.compute.amazonaws.com/readmessage', { currUser: currUser }, function(data) {
+        $.each(data.urls, function(index) {
+            
+            if(data.urls[index][6]== 0){
+                count = count + 1;
+            }
+            
+        });
+        
+        $(".urnums").html(count);
+            
+    }); 
+}
 
 
