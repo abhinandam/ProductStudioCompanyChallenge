@@ -31,9 +31,15 @@
     border-color: #8064A2;
 }
 
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover
+ {
+    background-color: #1995AD;
+}
+
 hr {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 3px;
+    margin-bottom: 3px;
     border: 0;
     border-top: .5px solid #BCBABE;
 }
@@ -74,8 +80,12 @@ hr {
     color: red;
 }
 
-.read {
-    background-color: grey;
+.read a {
+    color: #BCBABE;
+}
+
+.read label {
+    color: #BCBABE;
 }
 
 .lilogout {
@@ -86,6 +96,41 @@ hr {
 .articleimage {
     width: 48px;
     padding-left: 0px;
+}
+
+.rightstatus {
+    padding-left: 0px;
+}
+
+label {
+    font-weight: 200;
+    margin-bottom: 0px;
+}
+
+p {
+    margin-bottom: 5px;
+}
+
+input[type=checkbox], input[type=radio] {
+    font-size: 50px;
+    margin-top: 25px;
+}
+
+.friendsresult .row:hover {
+    background-color: #A1D6E2;
+}
+
+.friendsresult .row:active {
+    background-color: #A1D6E2;
+}
+
+.friendsresult .row {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.col-xs-7 label {
+    padding-top: 1.5em;
 }
 
 
