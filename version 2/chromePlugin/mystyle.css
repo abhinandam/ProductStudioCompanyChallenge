@@ -148,6 +148,7 @@ hr {
 
 .lilogout {
     float: right !important;
+    cursor: pointer; 
 }
 
 .articleimage {
