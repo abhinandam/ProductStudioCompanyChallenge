@@ -5,13 +5,46 @@
     border-radius: 4px;
 }
 
+
 .main{
     width: 300px;
     padding-bottom: 20px;
+    background-color: #F1F1F2;
 }
 
-.postbtn {
+.container {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.check-box {
+    width: 20px;
+}
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited,
+.btn-primary:focus {
     margin-top: 10px;
+    background-color: #1995AD;
+    border-color: #8064A2;
+}
+
+hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 0;
+    border-top: .5px solid #BCBABE;
+}
+
+.navbar-fixed-bottom {
+    bottom: 0;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 10px;
+    margin-left: 10px;
+    background-color: #F1F1F2;
 }
 
 .userimage {
@@ -21,6 +54,15 @@
 .articleimage {
     width:100%;
 }
+
+.input-group {
+    margin-top: 10px;
+}
+
+.nav-pills {
+    margin-top: 10px;
+}
+
 
 /*
 .rightstatus{
@@ -38,3 +80,18 @@
 .lilogout {
     float: right !important;
 }
+
+
+.articleimage {
+    width: 32px;
+}
+
+
+/*
+overcast: #F1F1F2
+warm gray: #BCBABE
+ice: #A1D6E2
+glacier blue: #1995AD
+
+*/
+
