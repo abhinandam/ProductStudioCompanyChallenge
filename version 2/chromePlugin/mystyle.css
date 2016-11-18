@@ -7,7 +7,7 @@
 
 
 .main{
-    width: 360px;
+    width: 320px;
     padding-bottom: 20px;
 
 }
@@ -66,18 +66,22 @@
 .nav-pills li>a {
     margin-top: 5px;
     margin-bottom: 5px;
-    margin-left: 10px;
-    font-size: 1.1em;
+    font-size: 1em;
     font-weight: 200;
     color: rgb(15,89,108);
 }
 
-.logout li>a {
-    font-size: .6em;
+/*.nav>li>a {
+    border-bottom: 1px solid black;
+}*/
+
+.lilogout {
+    font-size: .8em;
     font-weight: 100;
-    margin-right: 0px;
+    margin-right: -10px;
     margin-top: 0px;
 }
+
 /*
 
 .nav-pills>li>a {
@@ -129,6 +133,15 @@ hr {
 
 }
 
+.badge {
+    margin-top: -3px;
+    background-color: rgba(217,83,79,.9);
+}
+
+.list-group-item.active>.badge, .nav-pills>.active>a>.badge {
+    color: rgba(15,89,108);
+}
+
 /*
 .rightstatus{
     margin-left: -24px;
@@ -176,6 +189,10 @@ hr {
     margin-bottom: 0px;
 }
 
+.col-xs-9 p {
+    margin-bottom: 0px;
+}
+
 p {
     margin-bottom: 5px;
 }
@@ -196,6 +213,11 @@ input[type=checkbox], input[type=radio] {
 .friendsresult .row {
     padding-top: 5px;
     padding-bottom: 5px;
+}
+
+.friendsresult label {
+    font-weight: 200;
+    color: rgb(15,89,108);
 }
 
 .col-xs-7 label {
